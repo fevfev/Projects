@@ -1,5 +1,5 @@
 
-![HelloWorld](image/HelloWorld.jpg)
+![HelloWorld](Image/HelloWorld.jpg)
 
 ## Hello World 
 
@@ -87,13 +87,13 @@ fun GreetingPreview() {
 
 ## **Задание**
 
-![alt text](<image/Example.png>)
+![alt text](<Image/Example.png>)
 
 **HW1**: Модифицировать программу HelloWorld добавив функцию вызывающую вывод текста
 
 **Out:** “Привет, я изучаю Android меня зовут Иванов Иван группа ИИ11” <details>
     <summary>Пример в эмуляторе</summary>
-![alt text](<image/Emulator.png>)
+![alt text](<Image/Emulator.png>)
 </details>
 
 <details>
@@ -160,5 +160,5 @@ fun HelloWorld(fio: String, subject: String, group: String, modifier: Modifier =
 
 ## Папка Image в корневом каталоге содержит изображение готового вариианта и дополнительные изображения для иконки и экрана загрузки. Так же там распооложен HelloWorld.apk c готовым примером приложения.
 
-![Image](image/Image.png)
+![Image](Image/Image.png)
 
