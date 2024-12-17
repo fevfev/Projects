@@ -5,13 +5,12 @@ plugins {
 }
 
 android {
-    namespace = "com.androidlesson.first"
+    namespace = "com.androidlesson.calculator"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.androidlesson.first"
+        applicationId = "com.androidlesson.calculator"
         minSdk = 29
-        //noinspection OldTargetApi
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"

@@ -1,4 +1,4 @@
-package com.androidlesson.first.ui.theme
+package com.androidlesson.calculator.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
