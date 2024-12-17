@@ -1,4 +1,10 @@
+
+![HelloWorld](image/HelloWorld.jpg)
+
 ## Hello World 
+
+<details>
+  <summary>Пример стартового приложения</summary>
 
 ```kotlin
 
@@ -48,6 +54,7 @@ fun GreetingPreview() {
     }
 }
 ```
+</details>
 
 ## **Теория**
 
@@ -76,13 +83,23 @@ fun GreetingPreview() {
   
 **Modifier**: Используется для изменения или добавления стилей к Composable-функциям, таких как padding и fillMaxSize.
 
+
+
 ## **Задание**
+
+![alt text](<image/Example.png>)
 
 **HW1**: Модифицировать программу HelloWorld добавив функцию вызывающую вывод текста
 
-**Out:** “Привет, я изучаю Android меня зовут Иванов Иван группа ИИ11” 
+**Out:** “Привет, я изучаю Android меня зовут Иванов Иван группа ИИ11” <details>
+    <summary>Пример в эмуляторе</summary>
+![alt text](<image/Emulator.png>)
+</details>
 
+<details>
+ <summary>Пример реализации</summary>
 **Пример вызова функции:**
+
 
 ```kotlin
 // MainActivity - основной класс активности, который наследуется от ComponentActivity
@@ -124,6 +141,7 @@ fun HelloWorldPreview() {
 }
 ```
 
+
 **Пример функции:**
 
 ```kotlin
@@ -138,3 +156,9 @@ fun HelloWorld(fio: String, subject: String, group: String, modifier: Modifier =
     )
 }
 ```
+</details>
+
+## Папка Image в корневом каталоге содержит изображение готового вариианта и дополнительные изображения для иконки и экрана загрузки. 
+
+![Image](image/Image.png)
+
