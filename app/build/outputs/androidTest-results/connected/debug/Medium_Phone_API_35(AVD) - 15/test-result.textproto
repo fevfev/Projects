@@ -1,0 +1,276 @@
+# 2024-12-17T22:47:57.174677400Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 5
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "CalculatorTest"
+    test_package: "com.androidlesson.calculator"
+    test_method: "additionWithEmptyInput"
+    start_time {
+      seconds: 1734475664
+      nanos: 572000000
+    }
+    end_time {
+      seconds: 1734475668
+      nanos: 612000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\projects\\learn\\Projects\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Medium_Phone_API_35(AVD) - 15\\logcat-com.androidlesson.calculator.CalculatorTest-additionWithEmptyInput.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\projects\\learn\\Projects\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Medium_Phone_API_35(AVD) - 15\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\projects\\learn\\Projects\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Medium_Phone_API_35(AVD) - 15\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\projects\\learn\\Projects\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Medium_Phone_API_35(AVD) - 15\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CalculatorTest"
+    test_package: "com.androidlesson.calculator"
+    test_method: "additionWithNonNumericInput"
+    start_time {
+      seconds: 1734475668
+      nanos: 632000000
+    }
+    end_time {
+      seconds: 1734475670
+      nanos: 992000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\projects\\learn\\Projects\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Medium_Phone_API_35(AVD) - 15\\logcat-com.androidlesson.calculator.CalculatorTest-additionWithNonNumericInput.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\projects\\learn\\Projects\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Medium_Phone_API_35(AVD) - 15\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\projects\\learn\\Projects\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Medium_Phone_API_35(AVD) - 15\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\projects\\learn\\Projects\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Medium_Phone_API_35(AVD) - 15\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CalculatorTest"
+    test_package: "com.androidlesson.calculator"
+    test_method: "additionOfPositiveAndNegativeNumber"
+    start_time {
+      seconds: 1734475671
+      nanos: 20000000
+    }
+    end_time {
+      seconds: 1734475672
+      nanos: 764000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\projects\\learn\\Projects\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Medium_Phone_API_35(AVD) - 15\\logcat-com.androidlesson.calculator.CalculatorTest-additionOfPositiveAndNegativeNumber.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\projects\\learn\\Projects\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Medium_Phone_API_35(AVD) - 15\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\projects\\learn\\Projects\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Medium_Phone_API_35(AVD) - 15\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\projects\\learn\\Projects\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Medium_Phone_API_35(AVD) - 15\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CalculatorTest"
+    test_package: "com.androidlesson.calculator"
+    test_method: "additionOfTwoPositiveNumbers"
+    start_time {
+      seconds: 1734475672
+      nanos: 769000000
+    }
+    end_time {
+      seconds: 1734475674
+      nanos: 491000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\projects\\learn\\Projects\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Medium_Phone_API_35(AVD) - 15\\logcat-com.androidlesson.calculator.CalculatorTest-additionOfTwoPositiveNumbers.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\projects\\learn\\Projects\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Medium_Phone_API_35(AVD) - 15\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\projects\\learn\\Projects\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Medium_Phone_API_35(AVD) - 15\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\projects\\learn\\Projects\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Medium_Phone_API_35(AVD) - 15\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CalculatorTest"
+    test_package: "com.androidlesson.calculator"
+    test_method: "additionOfTwoNegativeNumbers"
+    start_time {
+      seconds: 1734475674
+      nanos: 523000000
+    }
+    end_time {
+      seconds: 1734475676
+      nanos: 351000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\projects\\learn\\Projects\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Medium_Phone_API_35(AVD) - 15\\logcat-com.androidlesson.calculator.CalculatorTest-additionOfTwoNegativeNumbers.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\projects\\learn\\Projects\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Medium_Phone_API_35(AVD) - 15\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\projects\\learn\\Projects\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Medium_Phone_API_35(AVD) - 15\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\projects\\learn\\Projects\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Medium_Phone_API_35(AVD) - 15\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\projects\\learn\\Projects\\app\\build\\outputs\\androidTest-results\\connected\\debug\\Medium_Phone_API_35(AVD) - 15\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}
