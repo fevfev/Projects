@@ -6,9 +6,9 @@
 
 **На старте выбираем новый проект**
 
-![alt text](image-1.png)
+![alt text](img/image-1.png)
 
-![alt text](image-2.png)
+![alt text](img/image-2.png)
 
 * Далее шаблон Empty Activity  
 
@@ -28,7 +28,7 @@
 
  Пройдет создание вашего первого Android приложения, после запуска мы видим проект
 
-![alt text](image.png)
+![alt text](img/image.png)
 
 **Главный файл**
 
@@ -121,25 +121,25 @@ fun GreetingPreview() {
 
 
 **Запуск и тестирование**
-![alt text](image-3.png)
+![alt text](img/image-3.png)
 
 *   **Запуск приложения:**
     *   Выберите виртуальное устройство или подключите физическое устройство и нажмите "Run" в Android Studio.
-![alt text](image-4.png)
+![alt text](img/image-4.png)
 
-![alt text](image-5.png)
+![alt text](img/image-5.png)
 
 **Пример вывода превью**
 
-![alt text](image-6.png)
+![alt text](img/image-6.png)
 
  **Просмотр превью:**
 
 Перейдите в режим "Design" для MainActivity.kt, чтобы увидеть, как будет выглядеть ваш UI.
 
-![alt text](image-7.png)
+![alt text](img/image-7.png)
 
-![alt text](image-8.png)
+![alt text](img/image-8.png)
 
 **Наше приложение до модификации**
 
@@ -150,11 +150,11 @@ fun GreetingPreview() {
 
 * Добавьте отступы вокруг текста для визуального улучшения.
 
-![alt text](image-12.png)
+![alt text](img/image-12.png)
 
 **В превью.**
 
-![alt text](image-13.png)
+![alt text](img/image-13.png)
 
 **В эмуляторе.**
 
@@ -175,9 +175,9 @@ Text(
 )
 ```
 
-![alt text](image-10.png)
+![alt text](img/image-10.png)
 
-![alt text](image-11.png)
+![alt text](img/image-11.png)
 
 **Ошибки в коде.**
 
@@ -185,7 +185,7 @@ Text(
 
 **Например в нашем случае нужен банальный импорт.**
 
-![alt text](image-9.png)
+![alt text](img/image-9.png)
 
 **Так же можно выбрать решение конфликта через комбинацию клавиш alt+Enter**
 

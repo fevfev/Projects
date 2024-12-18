@@ -5,7 +5,7 @@
 
 ## Раздел 2 урок 2 Jetpack Compose Основы Composable Функций
 
-![alt text](image-15.png)
+![alt text](img/image-15.png)
 
 ## Введение в Composable Функции
 
@@ -56,7 +56,7 @@ fun Greeting(name: String) {
 
 ## 2. Основные элементы UI
 
-![alt text](image-16.png)
+![alt text](img/image-16.png)
 
 ### Text
 ```kotlin
@@ -69,7 +69,7 @@ Text(
 ```
 ## Button
 
-![alt text](image-17.png)
+![alt text](img/image-17.png)
 
 ```kotlin
 Button(onClick = { /* Событие нажатия */ }) {
@@ -78,7 +78,7 @@ Button(onClick = { /* Событие нажатия */ }) {
 ```
 ## Image
 
-![alt text](image-18.png)
+![alt text](img/image-18.png)
 
 ```kotlin
 Image(
@@ -90,7 +90,7 @@ Image(
 
 ## TextField
 
-![alt text](image-19.png)
+![alt text](img/image-19.png)
 
 ```kotlin
  var text by remember { mutableStateOf("") }
@@ -164,9 +164,11 @@ Image(
 
 **В данном разделе разберем на примере создания приложения "Калькулятор":**
 
-![alt text](image-23.png)
+![alt text](img/image-23.png)
 
 **Код приложения:**
+
+<details><summary><a href="https://developer.android.com/codelabs/jetpack-compose-basics">jetpack-compose-basics</a></summary>
 
 ```kotlin
 
@@ -349,7 +351,7 @@ fun CalculatorPreview() {
     }
 }
 ```
-
+</details>
 **Объяснение:**
 
   
@@ -377,7 +379,7 @@ fun Counter() {
 
 ### Column Колонка (вертикальная группа элементов ):
 
-![alt text](image-20.png)
+![alt text](img/image-20.png)
 
 Элементы размещаются друг под другом.
 
@@ -397,7 +399,7 @@ Column {
 
 ### Row Ряд (горизонтальная группа):
 
-![alt text](image-21.png)
+![alt text](img/image-21.png)
 
 Элементы размещаются в строку.
 Свойства:
@@ -418,9 +420,9 @@ Row {
 
 *   **Modifier** применяется для настройки внешнего вида и расположения элементов.
 
-![alt text](image-24.png)
+![alt text](img/image-24.png)
 
-**Самостоятельная работа:**
+**Практическое задание:**
 
 
 *  Добавьте к калькулятору функциональность других операций. 

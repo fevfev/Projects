@@ -40,7 +40,7 @@ fun TextField(
 
 </details>
 
-![alt text](image-37.png)
+![alt text](img/image-37.png)
 
 1.  **TextField:**
     *   Используется для ввода текста пользователем.
@@ -110,7 +110,7 @@ fun NoteInput() {
         *   ```modifier```: Для управления размером, позиционированием и т.д.
 
 
-![alt text](image-38.png)
+![alt text](img/image-38.png)
 
 ```kotlin
 @Composable
@@ -181,7 +181,8 @@ fun NoteInput() {
 **Практическая часть, приложение заметок.**
 
 
-![alt text](image-40.png)
+![alt text](img/image-40.png)
+
 <details><summary><a href="https://developer.android.com/codelabs/jetpack-compose-state">Приложение заметок</a></summary>
 
 ```kotlin
@@ -362,14 +363,14 @@ fun NoteLabel() {
 ```
 </details>
 
-![alt text](image-39.png)
+![alt text](img/image-39.png)
 
 ## Объяснение:
 *   mutableStateListOf используется для создания изменяемого списка заметок, который будет автоматически обновлять UI при изменении cостояние, например добавления заметок/удаления или редактирования.
 *   NoteInput компонент обрабатывает ввод пользователя и добавляет новую заметку в список.
 *   NotesList отображает все заметки, используя LazyColumn для эффективного рендеринга больших списков.
 
-**Пратктическое задание:**
+**Практическое задание:**
 
 * Добавьте возможность изменения заметок
 * Добавить подтверждение удаления:  Перед удалением заметки показывать подтверждение удаления.

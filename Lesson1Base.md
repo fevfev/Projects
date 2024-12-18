@@ -1,4 +1,4 @@
-![alt text](image-41.png)
+![alt text](img/image-41.png)
 
 Урок 1: Введение в Kotlin для Android разработки
  

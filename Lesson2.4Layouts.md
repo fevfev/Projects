@@ -13,7 +13,7 @@
 
 Compose предоставляет мощные инструменты для верстки, позволяя компоновать элементы вертикально, горизонтально или накладывать их друг на друга.
 
-![alt text](image-25.png)
+![alt text](img/image-25.png)
 
 ## Column Колонка (вертикальная группа элементов ):
 
@@ -34,7 +34,7 @@ Column {
 ```
 
 
-![alt text](image-26.png)
+![alt text](img/image-26.png)
 
 ## Row Ряд (горизонтальная группа):
 Элементы размещаются в строку.
@@ -64,7 +64,7 @@ Row {
 * contentAlignment — задает выравнивание вложенных элементов.
 * Используй модификаторы align(Alignment) для индивидуального выравнивания. weight - распределение пространства между элементами.
 
-![alt text](image-27.png)
+![alt text](img/image-27.png)
 
 ```kotlin
 
@@ -77,7 +77,7 @@ Box(modifier = Modifier.size(100.dp)) {
 
 **Пример использования weight:**
 
-![alt text](image-34.png)
+![alt text](img/image-34.png)
 
 ```kotlin
 @Composable
@@ -93,7 +93,7 @@ fun WeightedLayout() {
 
 **Пример использования наложения в Box**
 
-![alt text](image-33.png)
+![alt text](img/image-33.png)
 
 ```kotlin
 @Composable
@@ -113,7 +113,7 @@ fun OverlayExample() {
 
 **fillMaxSize c вложенными макетами:**
 
-![alt text](image-32.png)
+![alt text](img/image-32.png)
 
 ```kotlin @Preview(showBackground = true)
 @Composable
@@ -145,7 +145,7 @@ fun NestedLayouts() {
 
 ## LazyColumn (список) 
 
-![alt text](image-28.png)
+![alt text](img/image-28.png)
 
 Для работы с длинными списками или динамическими данными.
 Свойства:
@@ -165,7 +165,7 @@ fun LazyColumnExample() {
     }
 }
 ```
-![alt text](image-29.png)
+![alt text](img/image-29.png)
 
 ## LazyRow (горизонтальный список)
 
@@ -188,7 +188,7 @@ fun LazyRowExample() {
 ```
 ## Spacer (разделитель пространства)
 
-![alt text](image-30.png)
+![alt text](img/image-30.png)
 
 ```kotlin
 @Composable
@@ -205,7 +205,7 @@ fun SpacerExample() {
 Для более сложных схем.
 
 
-![alt text](image-31.png)
+![alt text](img/image-31.png)
 
 ```kotlin
 @Composable
@@ -245,9 +245,12 @@ fun ConstraintLayoutExample() {
 
 # В качестве практического знакомство с компонентами разметки реализуем пример вывода изображений в галерее. 
 
-![alt text](image-35.png)
+![alt text](img/image-35.png)
 
 **Код приложения**
+
+<details><summary><a href="https://developer.android.com/develop/ui/compose/layouts">Приложение галерея</a></summary>
+
 
 ```kotlin
 package com.androidlesson.imagegallery
@@ -307,7 +310,7 @@ val imageResIds = listOf(
     R.drawable.image7,
     R.drawable.image8,
     R.drawable.image9,
-    // Добавьте все используемые изображения сюда (image10, image11, ... не забудьте перед этим добавить их в папку res/drawable
+    // Добавьте все используемые изображения сюда (img/image10, image11, ... не забудьте перед этим добавить их в папку res/drawable
 )
 
 @Composable
@@ -319,14 +322,14 @@ fun ImageGallery() {
         modifier = Modifier.fillMaxSize() // Заполнение всего доступного пространства
     ) {
         // Отображение каждого изображения из списка
-        items(imageResIds.size) { index ->
-            ImageCard(imageResIds[index])
+        items(img/imageResIds.size) { index ->
+            ImageCard(img/imageResIds[index])
         }
     }
 }
 
 @Composable
-fun ImageCard(imageResId: Int) {
+fun ImageCard(img/imageResId: Int) {
     // Карточка для отображения изображения
     Card(
         modifier = Modifier
@@ -358,6 +361,9 @@ fun ImageGalleryExample() {
     }
 }
 ```
+</details>
+
+
 
 **Объяснение:**
 
@@ -375,10 +381,10 @@ fun ImageGalleryExample() {
 
 **Используемые изображения приложены в папке android image**
 
-![alt text](image9.png) ![alt text](image0.png) ![alt text](image1.png) ![alt text](image2.png) ![alt text](image3.png) ![alt text](image4.png) ![alt text](image5.png) ![alt text](image6.png) ![alt text](image7.png) ![alt text](image8.png)
+![alt text](img/image9.png) ![alt text](img/image0.png) ![alt text](img/image1.png) ![alt text](img/image2.png) ![alt text](img/image3.png) ![alt text](img/image4.png) ![alt text](img/image5.png) ![alt text](img/image6.png) ![alt text](img/image7.png) ![alt text](img/image8.png)
 
 
-![alt text](image-36.png)
+![alt text](img/image-36.png)
 
 **Практическое задание**
 
