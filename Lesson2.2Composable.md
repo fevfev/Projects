@@ -1,7 +1,7 @@
 
 # Продолжаем изучение разработки мобильных приложений под ос Android.
 
-![alt text](composable.gif)
+![alt text](img/composable.gif)
 
 ## Раздел 2 урок 2 Jetpack Compose Основы Composable Функций
 
@@ -160,7 +160,7 @@ Image(
 
 **Пример Composable Функции**
 
-![alt text](Calculator.jpg)
+![alt text](img/Calculator.jpg)
 
 **В данном разделе разберем на примере создания приложения "Калькулятор":**
 
